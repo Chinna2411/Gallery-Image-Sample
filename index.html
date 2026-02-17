@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Container {
+        padding: 20px;
+    }
+
+    .header {
+        background-color: black;
+        color: white;
+        display: block;
+        width: 110px;
+        border-radius: 4px;
+    }
+
+    .header__title {
+        padding: 5px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .line {
+        display: flex;
+        justify-content: center;
+    }
+
+    .line__1 {
+        background-color: rgb(116, 96, 96);
+        border-radius: 2px;
+        width: 330px;
+        height: 5px;
+        margin-bottom: 40px;
+    }
+
+    .gallery {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .gallery img {
+        border: solid black 2px;
+        width: 280px;
+        height: 70%;
+    }
+
+    .gallery__1 {
+        width: 390px;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        flex-grow: 30%;
+
+    }
+
+    .body__1 {
+        background-color: pink;
+    }
+</style>
+
+<body>
+    <div class="body__1">
+        <div class="Container">
+            <div class="header">
+                <h1 class="header__title">Header</h1>
+            </div>
+            <div class="title">
+                <h1 class="title__name">Image Gallery</h1>
+            </div>
+            <div class="line">
+                <div class="line__1"></div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+            <div class="gallery__1">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
